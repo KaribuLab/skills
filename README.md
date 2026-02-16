@@ -12,6 +12,18 @@ Each skill lives in its own directory and contains a `SKILL.md` file with struct
 | [nestjs-microservices](nestjs-microservices/SKILL.md) | Build production-ready NestJS microservices following design and architecture best practices, deployable with Helm on Kubernetes. |
 | [screaming-architecture](screaming-architecture/SKILL.md) | Follow the clean and maintainable code architecture pattern for project structure. |
 
+## Installation
+
+```bash
+pnpx skills KaribuLab/skills --skill <skill-name>
+```
+
+For example, to install the `helm-charts` skill, run:
+
+```bash
+pnpx skills KaribuLab/skills --skill helm-charts
+```
+
 ## Repository Structure
 
 ```
