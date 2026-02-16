@@ -1,6 +1,6 @@
 # Skills
 
-A collection of [Cursor AI Agent Skills](https://docs.cursor.com/context/skills) that encode best practices and conventions for recurring development tasks.
+A collection of Agent Skills that encode best practices and conventions for recurring development tasks.
 
 Each skill lives in its own directory and contains a `SKILL.md` file with structured metadata, purpose, usage guidelines, and step-by-step instructions. Some skills also include a `references/` folder with additional context on specific tools or platforms.
 
