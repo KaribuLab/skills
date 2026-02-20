@@ -9,8 +9,11 @@ Each skill lives in its own directory and contains a `SKILL.md` file with struct
 | Skill | Description |
 |-------|-------------|
 | [helm-charts](helm-charts/SKILL.md) | Create Helm charts for Kubernetes deployment. |
+| [html-to-markdown](html-to-markdown/SKILL.md) | Get the markdown content from a HTML url for reading software development documentation. |
 | [nestjs-microservices](nestjs-microservices/SKILL.md) | Build production-ready NestJS microservices following design and architecture best practices, deployable with Helm on Kubernetes. |
+| [python-fastapi](python-fastapi/SKILL.md) | Build APIs using FastAPI following best practices in architecture, security, maintainability, and performance. |
 | [screaming-architecture](screaming-architecture/SKILL.md) | Follow the clean and maintainable code architecture pattern for project structure. |
+| [titvo](titvo/SKILL.md) | Analyze generated code, identify vulnerabilities, and report them to the user. |
 
 ## Installation
 
@@ -32,12 +35,18 @@ skills/
     SKILL.md
     references/
       gcp.md
+  html-to-markdown/
+    SKILL.md
   nestjs-microservices/
     SKILL.md
     references/
       typed-orm.md
       pino-logger.md
+  python-fastapi/
+    SKILL.md
   screaming-architecture/
+    SKILL.md
+  titvo/
     SKILL.md
 ```
 
