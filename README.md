@@ -8,6 +8,7 @@ Each skill lives in its own directory and contains a `SKILL.md` file with struct
 
 | Skill | Description |
 |-------|-------------|
+| [aws-lambda-layered](aws-lambda-layered/SKILL.md) | Build AWS Lambda services following a layered Controller/Delegate/Service architecture with REST and SOAP support. |
 | [helm-charts](helm-charts/SKILL.md) | Create Helm charts for Kubernetes deployment. |
 | [html-to-markdown](html-to-markdown/SKILL.md) | Get the markdown content from a HTML url for reading software development documentation. |
 | [nestjs-microservices](nestjs-microservices/SKILL.md) | Build production-ready NestJS microservices following design and architecture best practices, deployable with Helm on Kubernetes. |
@@ -31,6 +32,8 @@ pnpx skills KaribuLab/skills --skill helm-charts
 
 ```
 skills/
+  aws-lambda-layered/
+    SKILL.md
   helm-charts/
     SKILL.md
     references/
